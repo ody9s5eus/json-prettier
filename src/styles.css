@@ -1,0 +1,80 @@
+/* styles.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+textarea, pre {
+  width: 100%;
+  margin: 10px 0;
+  font-family: 'Roboto Mono', monospace;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+  background: #f9f9f9;
+  border: 2px solid #ddd;
+}
+
+pre {
+  background: #2d2d2d;
+  color: #00e676;
+  height: 200px;
+  overflow: auto;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: border 0.3s ease;
+}
+
+pre:hover {
+  border-image: linear-gradient(45deg, #6a11cb, #2575fc) 1;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #ee0979, #ff6a00);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
