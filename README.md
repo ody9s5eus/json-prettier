@@ -58,12 +58,6 @@ json-prettier/
 └── README.md           # Documentation (You're reading this!)
 ```
 
-## Screenshots
-
-### Input and Output
-![Input JSON](input.png)
-![Formatted Output](output.png)
-
 ## Customization
 
 Feel free to tweak the colors, fonts, or even add new features like:
