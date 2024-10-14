@@ -4,6 +4,8 @@ A simple and stylish JSON Prettier built with HTML, CSS, and JavaScript. This to
 
 ## Demo
 
+Check out the live demo here: [JSON Prettier Demo](https://ody9s5eus.github.io/json-prettier)
+
 ![JSON Prettier Demo](demo.png)
 
 ## Features
