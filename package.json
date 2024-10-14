@@ -1,10 +1,14 @@
 {
   "name": "json-prettier",
+  "homepage": "https://ody9s5eus.github.io/json-prettier",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'no-need'",
+    "predeploy": "echo 'No build step'",
+    "deploy": "gh-pages -d src"
   },
   "author": "",
   "license": "ISC",
