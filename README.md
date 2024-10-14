@@ -21,10 +21,6 @@ Check out the live demo here: [JSON Prettier Demo](https://ody9s5eus.github.io/j
 - **CSS**: Styling with gradients, custom fonts, and responsive design.
 - **JavaScript**: Parsing, formatting JSON, and handling user interactions.
 
-## Preview
-
-![Preview of JSON Prettier](preview.png)
-
 ## Getting Started
 
 ### Prerequisites
